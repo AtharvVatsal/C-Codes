@@ -1,1 +1,1 @@
-C coes in one place. Learning and exploring all together.
+C codes in one place. Learning and exploring all together.
