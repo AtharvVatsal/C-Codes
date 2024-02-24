@@ -21,7 +21,7 @@ int main() {
         printf("%d X %d= %d",a,b,a*b);
         break;
     case 4:
-        printf("%d / %d= %.2f",a,b,(float)a/b);
+        printf("%d / %d= %.4f",a,b,(float)a/b);
         break;
     default:
         printf("Wrong Choice Entered. Re-Run Code");
