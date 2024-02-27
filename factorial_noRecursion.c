@@ -2,7 +2,8 @@
 //no recursive function used
 int main()
 {
-    long long n, fac = 1;
+    long long n;
+    unsigned long long fac = 1;
     printf("Enter the number: ");
     scanf("%lld", &n);
     if (n < 0)
@@ -16,7 +17,7 @@ int main()
         {
             fac *= i;
         }
-        printf("Factorial of %lld : %lld", n, fac);
+        printf("Factorial of %lld : %llu", n, fac);
     }
     
     return 0;
