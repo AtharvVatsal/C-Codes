@@ -76,3 +76,27 @@ int main() {
     return 0;
 }
 */
+/*Palindrome
+int main() {
+    int number;
+    printf("Enter the number: ");
+    scanf("%d", &number);
+    int temp = number;
+    int reversed = 0;
+    int remainder;
+    while (number!=0)
+    {
+        remainder = number % 10;
+        reversed = reversed * 10 + remainder;
+        number = number / 10;
+    }
+    if (temp == reversed)
+    {
+        printf("Palindrome\n");
+    }
+    else
+    {
+        printf("Not Palindrome\n");
+    }
+    return 0;
+} */
